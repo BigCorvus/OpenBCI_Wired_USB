@@ -110,3 +110,7 @@ Much credit also goes to Yannick (yj on the forums).  I built off of [his code](
 ### 3. Contribute!
 
 If you do some modifications based on this work that you think could be useful for others, please share it.  Posting your code to github and/or updating this document would be very appreciated!
+
+## IV. Going wireless
+
+By implementing these changes you can easily eliminate the need for the OpenBCI radios and the dongle by connecting a UART Bluetooth 2.x module. See https://github.com/BigCorvus/OpenBCI_Bluetooth2adapter for design files of an adapter PCB. I've been able to achieve reliable operation with a sampling rate of 512, which even the OpenBCI GUI 2.0 supports.
